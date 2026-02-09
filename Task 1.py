@@ -1,26 +1,9 @@
-print("Enter first number")
-10
+print("Enter first number:")
+FirstNumber = int(input());
 print("Enter second number")
-20
+SecondNUmber = int(input());
 
-
-a = 10
-b = 20
-c = a + b
-print(c)
-
-a = 10
-b = 20
-c = a - b
-print(c)
-
-a = 10
-b = 20
-c = a * b
-print(c)
-
-a = 10
-b = 20
-c = a / b
-print(c)
-
+print("Addition:", FirstNumber+SecondNUmber);
+print("Subtraction:", FirstNumber-SecondNUmber);
+print("Multiplication:", FirstNumber*SecondNUmber);
+print("Division:", FirstNumber/SecondNUmber);
